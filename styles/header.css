@@ -1,5 +1,17 @@
-.container {
+.primary {
     background-image: url(../assets/images/Background_Intro.png);
     background-size: cover;
-    
+    text-align: center;
+}
+
+.principal {
+    margin-bottom: 56px;
+}
+
+h2 {
+   margin-bottom: 20px;
+}
+
+.secondary {
+    margin-bottom: 80px;
 }

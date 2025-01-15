@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+    list-style: none; 
+    font: var(--text-md);
+    color: var(--color-base-gray500); 
+}
+
+.gap-56 {
+    margin-bottom: 56px;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.title-lg {
+    font: var(--title-lg);
+    color: var(--color-base-gray600);
+}
+
+.subtitle{
+    font: var(--subtitle);
+    color: var(--color-base-gray500);
+}
+
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--color-base-gray400)
+}
