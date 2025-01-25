@@ -1,19 +1,35 @@
-.content {
-    gap: 8px;
-    background-color: var(--color-base-gray300);
-    color: var(--color-base-gray500);
-    font: var(--text-md);
-    padding: 8px 16px;
-    border-radius: 12px;
+#destaque {
+    color: red;
+    background-color: #16181D;
+    font: var(--subtitle);
 }
 
 
-ul {
+.container {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 94px;
     gap: 16px;
-    list-style: none;
+    width: 100%;
+    color: var(--color-base-gray500);
+    font: var(--text-md);
+    align-items: center;
+}
+
+section {
+    background-color: var(--color-base-gray100);
+    
+}
+
+section > p {
+    text-align: center;
+    font: var(--subtitle);
+}
+
+section > h2 {
+    text-align: center;
+    font: var(--title-md);
+    color: var(--color-base-gray600);
 }
 
 
