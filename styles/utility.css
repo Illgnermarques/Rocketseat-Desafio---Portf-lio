@@ -16,20 +16,43 @@
     align-items: center;
 }
 
+
 section {
     background-color: var(--color-base-gray100);
-    
+    padding-top: 72px;
+    padding-bottom: 144px;
+    padding: 120px;
+    height: 100vh;
+    place-items: center;
+
 }
 
 section > p {
     text-align: center;
     font: var(--subtitle);
+    color: red;
 }
 
 section > h2 {
     text-align: center;
     font: var(--title-md);
     color: var(--color-base-gray600);
+    padding-bottom: 56px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    align-self: center;
+}
+
+
+.size {
+    width: 306px;
 }
 
 
@@ -48,3 +71,4 @@ section > h2 {
     font: var(--text-sm);
     color: var(--color-base-gray400)
 }
+
