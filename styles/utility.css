@@ -22,9 +22,7 @@ section {
     padding-top: 72px;
     padding-bottom: 144px;
     padding: 120px;
-    height: 100vh;
-    place-items: center;
-
+    
 }
 
 section > p {
@@ -42,17 +40,43 @@ section > h2 {
 
 .grid {
     display: grid;
-}
-
-.grid-flow-col {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
-    align-self: center;
+    place-items: center;
+    
+    
+    
 }
 
+.grid-item {
+    background-color: var(--color-base-gray300);
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    
+    
+}
 
-.size {
+.grid-item > img {
     width: 306px;
+    height: 156px;
+    border-radius: 8px;
+    
+   
+}
+
+.grid-item > h3{
+    font: var(--title-sm);
+    color: var(--color-base-gray600);
+    padding-top: 20px;
+    
+}
+
+.grid-item > p {
+    font: var(--text-sm);
+    color: var(--color-base-gray600);
+   
 }
 
 
