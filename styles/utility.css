@@ -17,8 +17,8 @@
 }
 
 
-section {
-    background-color: var(--color-base-gray100);
+.quadros {
+    background-color: var(--color-base-gray200);
     padding-top: 72px;
     padding-bottom: 144px;
     padding: 120px;
@@ -38,14 +38,12 @@ section > h2 {
     padding-bottom: 56px;
 }
 
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     place-items: center;
-    
-    
-    
 }
 
 .grid-item {
@@ -54,31 +52,53 @@ section > h2 {
     width: 330px;
     height: 280px;
     padding: 12px;
-    
-    
 }
 
 .grid-item > img {
     width: 306px;
     height: 156px;
     border-radius: 8px;
-    
-   
 }
 
 .grid-item > h3{
     font: var(--title-sm);
     color: var(--color-base-gray600);
     padding-top: 20px;
-    
 }
 
 .grid-item > p {
     font: var(--text-sm);
     color: var(--color-base-gray600);
-   
 }
 
+.service {
+    padding-top: 88px;
+    background-color: var(--color-base-gray100);
+    
+}
+
+.contact {
+    color: var(--color-base-gray500);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+}
+
+.cont {
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.cont > h3 {
+    font: var(--title-sm);
+    color: var(--color-base-gray600);
+}
+
+.cont > p {
+    font: var(--text-sm);
+    color: var(--color-base-gray500);
+}
 
 .title-lg {
     font: var(--title-lg);
@@ -95,4 +115,6 @@ section > h2 {
     font: var(--text-sm);
     color: var(--color-base-gray400)
 }
+
+
 
