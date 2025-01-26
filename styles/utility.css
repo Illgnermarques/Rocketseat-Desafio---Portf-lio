@@ -93,6 +93,7 @@ section > h2 {
 .cont > h3 {
     font: var(--title-sm);
     color: var(--color-base-gray600);
+    padding-top: 20px;
 }
 
 .cont > p {
