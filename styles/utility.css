@@ -18,10 +18,12 @@
 .quadros {
     background-color: var(--color-base-gray200);
     padding: 120px;
+    width: 1366px;
+    height: 917px;
 }
 
 
-section > p {
+.red {
     text-align: center;
     font: var(--subtitle);
     color: red;
@@ -31,7 +33,7 @@ section > h2 {
     text-align: center;
     font: var(--title-md);
     color: var(--color-base-gray600);
-    padding-bottom: 56px;
+    
 }
 
 
@@ -74,6 +76,8 @@ section > h2 {
 .service {
     padding-top: 88px;
     background-color: var(--color-base-gray100);
+    width: 1366px;
+    height: 480px;
     
 }
 
@@ -82,12 +86,15 @@ section > h2 {
     justify-content: center;
     gap: 24px;
     padding-bottom: 120px;
+    
 }
 
 .cont {
     border: 2px solid gray;
     padding: 20px;
     border-radius: 12px;
+    width: 280px;
+    height: 155px;
 }
 
 .cont > h3 {
@@ -101,6 +108,56 @@ section > h2 {
     color: var(--color-base-gray500);
 }
 
+
+.job {
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: cover;
+    width: 1366px;
+    height: 787px;
+}
+
+
+.purple {
+    padding-top: 128px;
+    font: var(--subtitle);
+    color: var(--color-principal-purple);
+    text-align: center;
+}
+
+
+.ink {
+    font: var(--text-md);
+    color: var(--color-base-gray500);
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+    background-color: var(--color-base-gray300);
+    width: 400px;
+    height: 68px;
+    border-radius: 8px;
+    color: var(--color-base-gray500);
+    font: var(--text-md);
+    padding: 20px;
+    
+    
+}
+
+.set {
+    position: absolute;
+    left: 63%;
+}
 
 .title-lg {
     font: var(--title-lg);
@@ -118,5 +175,7 @@ section > h2 {
     color: var(--color-base-gray400)
 }
 
-
+.title-md {
+    padding-bottom: 56px;
+}
 
